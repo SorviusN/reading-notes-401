@@ -18,7 +18,7 @@ Commonly used file and directory classes:
 ### Compression
 Compression means reducing the size of a file for storage. Decompression is the process of extracting the contents of a compressed file so they are in a usable format.<br>
  The System.IO.Compression namespace has types for compressing/decompressing files and streams
-## Write to a file
+## Write/Read to a file
 Use a Program named StreamWriter to write to a file inside of a program.
 ``` cs
 class Program {
@@ -39,4 +39,3 @@ class Program {
     }
 }
 ```
-## Read to a file
