@@ -39,3 +39,4 @@ class Program {
     }
 }
 ```
+for Writing (using FileStream (fs): https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-read-and-write-to-a-newly-created-data-file
