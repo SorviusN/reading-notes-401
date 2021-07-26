@@ -16,6 +16,10 @@ The basic problem an interface is trying to solve is to separate how we use some
 ## Interfaces #2
 
 - Implementation of an interface
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0f25559168ba6c05252db4f09e8bb46ae27c769a
 ``` cs
 interface ISampleInterface
 {
@@ -39,4 +43,8 @@ class ImplementationClass : ISampleInterface
         obj.SampleMethod();
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0f25559168ba6c05252db4f09e8bb46ae27c769a
 ```
