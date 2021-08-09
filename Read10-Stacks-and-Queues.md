@@ -55,3 +55,37 @@ Common terminology for a queue is
 A queue is FIFO and LILO, which means that the first item in queue will be the first item out of queue. LILO is same but with last.
 
 ### Pseudocode for Queue methods
+
+``` cs
+ALGORITHM enqueue(value)
+// INPUT <-- value to add to queue (will be wrapped in Node internally)
+// OUTPUT <-- none
+   node = new Node(value)
+   rear.next <-- node
+   rear <-- node
+
+ALGORITHM dequeue()
+// INPUT <-- none
+// OUTPUT <-- value of the removed Node
+// EXCEPTION if queue is empty
+
+   Node temp <-- front
+   front <-- front.next
+   temp.next <-- null
+
+   return temp.value
+
+ALGORITHM peek()
+// INPUT <-- none
+// OUTPUT <-- value of the front Node in Queue
+// EXCEPTION if Queue is empty
+
+   return front.value
+
+
+ALGORITHM isEmpty()
+// INPUT <-- none
+// OUTPUT <-- boolean
+
+return front = NULL
+```
