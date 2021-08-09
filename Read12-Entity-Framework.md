@@ -24,7 +24,6 @@ namespace ContosoUniversity.Models
 ```
 The ID property is the primary key (PK) column of the database table that corresponds to this class. By default, EF interprets a property that's named ID or classnameID as the primary key. For example, the PK could be named StudentID rather than ID.
 
-
 ## Database context
 
     The main class that coordinates EF functionality for a given data model is the DbContext database context class. This class is created by deriving from the Microsoft.EntityFrameworkCore.DbContext class. The DbContext derived class specifies which entities are included in the data model. Some EF behaviors can be customized. In this project, the class is named SchoolContext.
