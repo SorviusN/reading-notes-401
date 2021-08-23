@@ -1,7 +1,7 @@
 # Reading Notes 28 - Auth/Cookies
+IMPORTANT ARTICLE: https://asp.mvc-tutorial.com/httpcontext/cookies/
 
 ## What are cookies?
-
 A small piece of data that a server sends to user's web browser.  
 
 Generally used to tell if two reqs came from the same browser (keeping user logged in, for example).
