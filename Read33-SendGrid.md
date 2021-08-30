@@ -6,7 +6,7 @@ Azure's Sendgrid allows you to send emails via Azure.
 To get started with Twilio SendGrid and Azure, visit the home page and subscribe to Azure.
 
 2. Twilio Sendgrid Account 
-
+From the Azure portal home page, select Marketplace under Azure services. If you do not see the Marketplace icon, you can search for it by selecting More services.
 
 3. ### Create an API key.
 
