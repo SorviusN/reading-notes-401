@@ -1,7 +1,7 @@
 # Reading Notes 26 - MVC
 
 ### What is MVC?
-MVC is a degisn apttern or architecture which helps in developing the web application in a most efficient way when compared with the trad ASP.Net Web app.
+MVC is a degisn pattern or architecture which helps in developing the web application in a most efficient way when compared with the trad ASP.Net Web app.
 
 - In traditional ASP.NET web application approach, the user action and view (UI) are combined, i.e., the web page, say, Sample.aspx and code behind Sample.aspx.cs which has the action logic are both tightly coupled, whereas in MVC, the View only deals with UI of the page and the user actions are defined in Controller.
 - In any web based application, a user initiates the requests which are nothing but actions. So, for action based requirement, ASP.NET Web Application follows the View based architecture which is not so efficient. MVC is action-based architecture. Based on the action, an appropriate View is displayed. The organization of the code inside MVC is very clean and organized.
