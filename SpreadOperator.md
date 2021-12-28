@@ -20,6 +20,7 @@ let nums = [1, 2, 3, 4, 5];
 let arrOfDividends = divide(...nums);
 
 // arr of dividends will be 1/2, 2/2, 3/2, 4/2 and so on.
+// Considered cleaner than going through every individual array in nums and calling the function.
 
 ```
 2. In array literals 
